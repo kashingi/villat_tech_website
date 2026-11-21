@@ -14,7 +14,7 @@ import {
   imports: [MatIconModule, MatDialogModule],
   template: `
     <article
-      class="flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-xs transition-all duration-300 hover:border-sky-300/80 hover:shadow-xl hover:shadow-slate-900/5"
+      class="flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-xs transition-all duration-300 hover:border-brand-gold/60 hover:shadow-xl hover:shadow-slate-900/5"
     >
       <!-- Top Header Band -->
       <div class="border-b border-slate-100 bg-gradient-to-br from-slate-50 to-sky-50/40 p-6">
@@ -29,7 +29,7 @@ import {
           <span
             class="inline-flex items-center gap-1 font-mono text-xs font-semibold text-slate-600"
           >
-            <mat-icon class="!h-3.5 !w-3.5 !text-[15px] text-sky-600">schedule</mat-icon>
+            <mat-icon class="!h-3.5 !w-3.5 !text-[15px] text-brand-gold">schedule</mat-icon>
             {{ course().duration }}
           </span>
         </div>
@@ -42,7 +42,7 @@ import {
         </p>
 
         <p class="mt-3 inline-flex items-center gap-1.5 text-xs font-medium text-slate-500">
-          <mat-icon class="!h-4 !w-4 !text-[15px] text-sky-600">location_city</mat-icon>
+          <mat-icon class="!h-4 !w-4 !text-[15px] text-brand-gold">location_city</mat-icon>
           {{ course().format }}
         </p>
       </div>
@@ -89,7 +89,7 @@ import {
             <ul class="mt-3 space-y-2 rounded-xl border border-slate-100 bg-slate-50/40 p-4">
               @for (topic of course().topics; track topic) {
                 <li class="flex items-start gap-2 text-xs leading-relaxed text-slate-700">
-                  <mat-icon class="!h-4 !w-4 !text-[16px] mt-0.5 shrink-0 text-sky-600">
+                  <mat-icon class="!h-4 !w-4 !text-[16px] mt-0.5 shrink-0 text-brand-gold">
                     check_circle
                   </mat-icon>
                   <span>{{ topic }}</span>
@@ -100,7 +100,7 @@ import {
             <ul class="mt-3 space-y-1.5">
               @for (outcome of course().outcomes; track outcome) {
                 <li class="flex items-start gap-2 text-xs leading-relaxed text-slate-600">
-                  <mat-icon class="!h-4 !w-4 !text-[15px] mt-0.5 shrink-0 text-emerald-600">
+                  <mat-icon class="!h-4 !w-4 !text-[15px] mt-0.5 shrink-0 text-brand-gold">
                     task_alt
                   </mat-icon>
                   <span>{{ outcome }}</span>
@@ -115,7 +115,7 @@ import {
           <button
             type="button"
             (click)="openEnrollment()"
-            class="inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-navy-900 px-4 py-3 text-sm font-semibold text-white shadow-xs transition-all hover:bg-sky-700 active:scale-[0.99]"
+            class="inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-navy-900 px-4 py-3 text-sm font-semibold text-white shadow-xs transition-all hover:bg-brand-gold hover:text-navy-950 active:scale-[0.99]"
           >
             <span>Enroll / Inquire</span>
             <mat-icon class="!h-4 !w-4 !text-[17px]">arrow_forward</mat-icon>
@@ -157,7 +157,7 @@ export class CourseCardComponent {
       case 'Intermediate':
         return 'bg-sky-100 text-sky-800';
       case 'Career Track':
-        return 'bg-navy-900 text-sky-300';
+        return 'bg-navy-950 text-brand-gold';
       default:
         return 'bg-indigo-100 text-indigo-800';
     }

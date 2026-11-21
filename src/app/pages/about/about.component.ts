@@ -73,7 +73,7 @@ import { CtaBannerComponent } from '../../shared/components/cta-banner/cta-banne
             <div class="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
               @for (stat of stats; track stat.label) {
                 <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                  <p class="font-display text-2xl font-extrabold text-navy-900">{{ stat.value }}</p>
+                  <p class="font-display text-2xl font-extrabold text-brand-gold">{{ stat.value }}</p>
                   <p class="mt-1 text-xs leading-snug text-slate-600">{{ stat.label }}</p>
                 </div>
               }
@@ -124,7 +124,7 @@ import { CtaBannerComponent } from '../../shared/components/cta-banner/cta-banne
           <!-- Mission -->
           <div class="rounded-3xl border border-slate-200 bg-white p-8 shadow-xs sm:p-10">
             <div
-              class="flex h-12 w-12 items-center justify-center rounded-2xl bg-sky-100 text-sky-700"
+              class="flex h-12 w-12 items-center justify-center rounded-2xl bg-navy-950 text-brand-gold ring-1 ring-brand-gold/30"
             >
               <mat-icon class="!h-6 !w-6 !text-[24px]">flag</mat-icon>
             </div>
@@ -138,9 +138,9 @@ import { CtaBannerComponent } from '../../shared/components/cta-banner/cta-banne
           </div>
 
           <!-- Vision -->
-          <div class="rounded-3xl border border-sky-200/80 bg-navy-900 p-8 text-white shadow-lg sm:p-10">
+          <div class="rounded-3xl border border-navy-800 bg-navy-950 p-8 text-white shadow-lg sm:p-10">
             <div
-              class="flex h-12 w-12 items-center justify-center rounded-2xl bg-sky-500/20 text-sky-300 ring-1 ring-sky-400/30"
+              class="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-gold/15 text-brand-gold ring-1 ring-brand-gold/35"
             >
               <mat-icon class="!h-6 !w-6 !text-[24px]">visibility</mat-icon>
             </div>
@@ -169,10 +169,10 @@ import { CtaBannerComponent } from '../../shared/components/cta-banner/cta-banne
         <div class="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           @for (value of coreValues; track value.title) {
             <div
-              class="rounded-2xl border border-slate-200/90 bg-slate-50/50 p-6 transition-all hover:border-sky-200 hover:bg-white hover:shadow-md"
+              class="rounded-2xl border border-slate-200/90 bg-slate-50/50 p-6 transition-all hover:border-brand-gold/60 hover:bg-white hover:shadow-md"
             >
               <div
-                class="flex h-11 w-11 items-center justify-center rounded-xl bg-navy-900 text-sky-300"
+                class="flex h-11 w-11 items-center justify-center rounded-xl bg-navy-950 text-brand-gold ring-1 ring-brand-gold/30"
               >
                 <mat-icon>{{ value.icon }}</mat-icon>
               </div>
@@ -198,7 +198,7 @@ import { CtaBannerComponent } from '../../shared/components/cta-banner/cta-banne
             <div class="mt-8 flex flex-wrap gap-3">
               <a
                 routerLink="/services"
-                class="inline-flex items-center gap-2 rounded-xl bg-navy-900 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-sky-700"
+                class="inline-flex items-center gap-2 rounded-xl bg-navy-900 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-gold hover:text-navy-950"
               >
                 <span>Explore Services</span>
                 <mat-icon class="!h-4 !w-4 !text-[17px]">arrow_forward</mat-icon>
@@ -214,9 +214,9 @@ import { CtaBannerComponent } from '../../shared/components/cta-banner/cta-banne
 
           <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:col-span-7">
             @for (reason of whyChooseUs; track reason.title) {
-              <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs">
+              <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs transition-all hover:border-brand-gold/60">
                 <div
-                  class="flex h-11 w-11 items-center justify-center rounded-xl bg-sky-50 text-sky-700 ring-1 ring-sky-200/80"
+                  class="flex h-11 w-11 items-center justify-center rounded-xl bg-navy-950 text-brand-gold ring-1 ring-brand-gold/30"
                 >
                   <mat-icon>{{ reason.icon }}</mat-icon>
                 </div>

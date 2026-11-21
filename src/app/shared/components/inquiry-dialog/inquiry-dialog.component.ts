@@ -205,7 +205,7 @@ export interface InquiryDialogData {
                 </button>
                 <button
                   type="submit"
-                  class="inline-flex items-center justify-center gap-2 rounded-xl bg-navy-900 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-sky-700"
+                  class="inline-flex items-center justify-center gap-2 rounded-xl bg-navy-900 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-brand-gold hover:text-navy-950"
                 >
                   <span>Submit Request</span>
                   <mat-icon class="!h-4 !w-4 !text-[17px]">send</mat-icon>

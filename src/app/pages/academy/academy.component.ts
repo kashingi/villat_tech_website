@@ -59,7 +59,7 @@ type CourseLevelFilter = 'All' | 'Beginner' | 'Intermediate' | 'Career Track';
             <div class="mt-8 flex flex-wrap items-center gap-3.5">
               <a
                 href="#programs"
-                class="inline-flex items-center gap-2 rounded-xl bg-sky-500 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-sky-500/25 transition-all hover:bg-sky-400"
+                class="inline-flex items-center gap-2 rounded-xl bg-brand-gold px-6 py-3.5 text-sm font-semibold text-navy-950 shadow-lg shadow-brand-gold/25 transition-all hover:bg-brand-gold-light active:scale-[0.98]"
               >
                 <span>Browse Coding Programs</span>
                 <mat-icon class="!h-4 !w-4 !text-[18px]">arrow_downward</mat-icon>
@@ -69,7 +69,7 @@ type CourseLevelFilter = 'All' | 'Beginner' | 'Intermediate' | 'Career Track';
                 href="#career-services"
                 class="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/5 px-6 py-3.5 text-sm font-semibold text-white transition-all hover:bg-white/10"
               >
-                <mat-icon class="!h-4 !w-4 !text-[18px] text-emerald-400">badge</mat-icon>
+                <mat-icon class="!h-4 !w-4 !text-[18px] text-brand-gold">badge</mat-icon>
                 <span>Career &amp; Branding Services</span>
               </a>
             </div>
@@ -170,19 +170,19 @@ type CourseLevelFilter = 'All' | 'Beginner' | 'Intermediate' | 'Career Track';
         <div class="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2">
           @for (service of careerServices; track service.id) {
             <article
-              class="flex flex-col justify-between rounded-2xl border border-slate-200/90 bg-slate-50/60 p-7 transition-all hover:border-sky-300 hover:bg-white hover:shadow-lg hover:shadow-slate-900/5"
+              class="flex flex-col justify-between rounded-2xl border border-slate-200/90 bg-slate-50/60 p-7 transition-all hover:border-brand-gold/60 hover:bg-white hover:shadow-lg hover:shadow-slate-900/5"
             >
               <div>
                 <div class="flex items-center justify-between gap-3">
                   <div
-                    class="flex h-12 w-12 items-center justify-center rounded-xl bg-navy-900 text-sky-300"
+                    class="flex h-12 w-12 items-center justify-center rounded-xl bg-navy-950 text-brand-gold ring-1 ring-brand-gold/30"
                   >
                     <mat-icon>{{ service.icon }}</mat-icon>
                   </div>
                   <span
                     class="inline-flex items-center gap-1 rounded-full border border-slate-200 bg-white px-3 py-1 font-mono text-xs font-medium text-slate-600"
                   >
-                    <mat-icon class="!h-3.5 !w-3.5 !text-[14px] text-sky-600">schedule</mat-icon>
+                    <mat-icon class="!h-3.5 !w-3.5 !text-[14px] text-brand-gold">schedule</mat-icon>
                     {{ service.turnaround }}
                   </span>
                 </div>
@@ -197,7 +197,7 @@ type CourseLevelFilter = 'All' | 'Beginner' | 'Intermediate' | 'Career Track';
                 <ul class="mt-5 space-y-2 border-t border-slate-200/70 pt-4">
                   @for (point of service.highlights; track point) {
                     <li class="flex items-start gap-2 text-xs leading-relaxed text-slate-700">
-                      <mat-icon class="!h-4 !w-4 !text-[16px] mt-0.5 shrink-0 text-emerald-600">
+                      <mat-icon class="!h-4 !w-4 !text-[16px] mt-0.5 shrink-0 text-brand-gold">
                         check_circle
                       </mat-icon>
                       <span>{{ point }}</span>
@@ -210,7 +210,7 @@ type CourseLevelFilter = 'All' | 'Beginner' | 'Intermediate' | 'Career Track';
                 <button
                   type="button"
                   (click)="openCareerInquiry(service.title)"
-                  class="inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-navy-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-sky-700"
+                  class="inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-navy-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-gold hover:text-navy-950"
                 >
                   <span>Request Service</span>
                   <mat-icon class="!h-4 !w-4 !text-[16px]">arrow_forward</mat-icon>

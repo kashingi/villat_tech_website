@@ -230,7 +230,7 @@ import { SITE_CONFIG, buildWhatsAppUrl } from '../../core/config/site.config';
                     </p>
                     <button
                       type="submit"
-                      class="inline-flex items-center justify-center gap-2 rounded-xl bg-navy-900 px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-sky-700 active:scale-[0.98]"
+                      class="inline-flex items-center justify-center gap-2 rounded-xl bg-navy-900 px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-brand-gold hover:text-navy-950 active:scale-[0.98]"
                     >
                       <span>Send Message</span>
                       <mat-icon class="!h-4 !w-4 !text-[18px]">send</mat-icon>

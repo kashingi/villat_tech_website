@@ -45,7 +45,7 @@ import { CtaBannerComponent } from '../../shared/components/cta-banner/cta-banne
 
           <div class="mt-6 flex items-center gap-3 border-t border-white/10 pt-5 text-sm">
             <div
-              class="flex h-10 w-10 items-center justify-center rounded-full bg-sky-500/20 font-display font-bold text-sky-300"
+              class="flex h-10 w-10 items-center justify-center rounded-full bg-brand-gold/15 font-display font-bold text-brand-gold ring-1 ring-brand-gold/35"
             >
               VT
             </div>

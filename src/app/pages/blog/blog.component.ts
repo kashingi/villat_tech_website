@@ -83,7 +83,7 @@ import { CtaBannerComponent } from '../../shared/components/cta-banner/cta-banne
                 </div>
                 <a
                   [routerLink]="['/blog', featuredPost.slug]"
-                  class="inline-flex items-center gap-1.5 rounded-xl bg-navy-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-sky-700"
+                  class="inline-flex items-center gap-1.5 rounded-xl bg-navy-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-gold hover:text-navy-950"
                 >
                   <span>Read Article</span>
                   <mat-icon class="!h-4 !w-4 !text-[16px]">arrow_forward</mat-icon>

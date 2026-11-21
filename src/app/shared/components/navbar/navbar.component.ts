@@ -32,7 +32,7 @@ interface NavItem {
             aria-label="Villa Tech Solutions Limited Home"
           >
             <div
-              class="relative flex h-10 w-10 items-center justify-center rounded-xl bg-navy-900 text-white shadow-sm ring-1 ring-sky-400/30 transition-transform duration-300 group-hover:scale-105"
+              class="relative flex h-10 w-10 items-center justify-center rounded-xl bg-navy-950 text-white shadow-sm ring-1 ring-brand-gold/40 transition-transform duration-300 group-hover:scale-105"
             >
               <svg
                 class="h-6 w-6"
@@ -45,7 +45,7 @@ interface NavItem {
                   d="M6 8L14.5 25H17.5L26 8H21.8L16 20.1L10.2 8H6Z"
                   fill="url(#vtGrad)"
                 />
-                <circle cx="16" cy="7.5" r="2.2" fill="#38BDF8" />
+                <circle cx="16" cy="7.5" r="2.2" fill="#FDE68A" />
                 <defs>
                   <linearGradient
                     id="vtGrad"
@@ -55,8 +55,8 @@ interface NavItem {
                     y2="25"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#38BDF8" />
-                    <stop offset="1" stop-color="#0284C7" />
+                    <stop stop-color="#F0CA42" />
+                    <stop offset="1" stop-color="#E4A838" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -102,7 +102,7 @@ interface NavItem {
             </a>
             <a
               routerLink="/contact"
-              class="inline-flex items-center gap-1.5 rounded-lg bg-navy-900 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:bg-sky-700 active:scale-[0.98]"
+              class="inline-flex items-center gap-1.5 rounded-lg bg-navy-900 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:bg-brand-gold hover:text-navy-950 active:scale-[0.98]"
             >
               <span>Start a Project</span>
               <mat-icon class="!h-4 !w-4 !text-[16px] leading-none">arrow_forward</mat-icon>
@@ -156,7 +156,7 @@ interface NavItem {
             <a
               routerLink="/contact"
               (click)="closeMenu()"
-              class="inline-flex items-center justify-center gap-2 rounded-xl bg-navy-900 px-4 py-3 text-sm font-semibold text-white transition-colors hover:bg-sky-700"
+              class="inline-flex items-center justify-center gap-2 rounded-xl bg-navy-900 px-4 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-gold hover:text-navy-950"
             >
               <span>Request a Quote</span>
               <mat-icon class="!h-4 !w-4 !text-[18px]">arrow_forward</mat-icon>

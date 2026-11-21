@@ -47,7 +47,7 @@ import {
             class="inline-flex items-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-all"
             [class]="
               activeFilter() === 'all'
-                ? 'bg-sky-500 text-white shadow-md shadow-sky-500/25'
+                ? 'bg-brand-gold text-navy-950 shadow-md shadow-brand-gold/25'
                 : 'border border-white/15 bg-white/5 text-slate-300 hover:bg-white/10 hover:text-white'
             "
           >
@@ -62,7 +62,7 @@ import {
               class="inline-flex items-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-all"
               [class]="
                 activeFilter() === dept.id
-                  ? 'bg-sky-500 text-white shadow-md shadow-sky-500/25'
+                  ? 'bg-brand-gold text-navy-950 shadow-md shadow-brand-gold/25'
                   : 'border border-white/15 bg-white/5 text-slate-300 hover:bg-white/10 hover:text-white'
               "
             >
@@ -111,7 +111,7 @@ import {
                   @if (dept.id === 'academy') {
                     <a
                       routerLink="/academy"
-                      class="inline-flex items-center gap-2 rounded-xl bg-navy-900 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-sky-700"
+                      class="inline-flex items-center gap-2 rounded-xl bg-navy-900 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-gold hover:text-navy-950"
                     >
                       <span>Visit Villa Tech Academy Page</span>
                       <mat-icon class="!h-4 !w-4 !text-[17px]">arrow_forward</mat-icon>
@@ -120,7 +120,7 @@ import {
                     <button
                       type="button"
                       (click)="openInquiry(dept.name)"
-                      class="inline-flex items-center gap-2 rounded-xl bg-navy-900 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-sky-700"
+                      class="inline-flex items-center gap-2 rounded-xl bg-navy-900 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-gold hover:text-navy-950"
                     >
                       <span>{{ dept.ctaLabel }}</span>
                       <mat-icon class="!h-4 !w-4 !text-[17px]">arrow_forward</mat-icon>
@@ -160,12 +160,12 @@ import {
             >
               @for (service of dept.services; track service.id) {
                 <article
-                  class="flex flex-col justify-between rounded-2xl border border-slate-200/90 bg-white p-6 shadow-xs transition-all duration-300 hover:border-sky-300 hover:shadow-lg hover:shadow-slate-900/5"
+                  class="flex flex-col justify-between rounded-2xl border border-slate-200/90 bg-white p-6 shadow-xs transition-all duration-300 hover:border-brand-gold/60 hover:shadow-lg hover:shadow-slate-900/5"
                 >
                   <div>
                     <div class="flex items-center justify-between gap-3">
                       <div
-                        class="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br text-white shadow-xs"
+                        class="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br text-brand-gold shadow-xs ring-1 ring-brand-gold/30"
                         [class]="dept.accentClass"
                       >
                         <mat-icon>{{ service.icon }}</mat-icon>

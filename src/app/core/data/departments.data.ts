@@ -11,8 +11,8 @@ export const DEPARTMENTS: Department[] = [
       'We engineer dependable wireless and wired networks alongside high-definition CCTV security systems for corporate offices, hospitality venues, estates, schools, and homes across Nyali and Mombasa County.',
     icon: 'router',
     image: 'images/network-installation.png',
-    accentClass: 'from-sky-500 to-cyan-500',
-    badgeClass: 'bg-sky-50 text-sky-700 border-sky-200',
+    accentClass: 'from-navy-950 to-navy-900',
+    badgeClass: 'bg-navy-950/5 text-navy-950 border-navy-950/15',
     ctaLabel: 'Request Site Survey',
     ctaRoute: '/contact',
     services: [
@@ -70,8 +70,8 @@ export const DEPARTMENTS: Department[] = [
       'Our Nyali digital operations desk delivers dependable, confidential assistance for everyday business documentation, high-speed printing, KRA compliance, and essential Kenyan e-government platforms.',
     icon: 'print',
     image: 'images/operations-hub.jpg',
-    accentClass: 'from-emerald-500 to-teal-500',
-    badgeClass: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+    accentClass: 'from-navy-950 to-navy-900',
+    badgeClass: 'bg-navy-950/5 text-navy-950 border-navy-950/15',
     ctaLabel: 'Visit Our Nyali Desk',
     ctaRoute: '/contact',
     services: [
@@ -154,8 +154,8 @@ export const DEPARTMENTS: Department[] = [
       'We design and build fast, resilient, conversion-focused digital products engineered with modern frameworks like Angular, TypeScript, Spring Boot, and cloud-ready architectures.',
     icon: 'code',
     image: 'images/academy-coding.jpg',
-    accentClass: 'from-blue-600 to-indigo-600',
-    badgeClass: 'bg-blue-50 text-blue-700 border-blue-200',
+    accentClass: 'from-navy-950 to-navy-900',
+    badgeClass: 'bg-navy-950/5 text-navy-950 border-navy-950/15',
     ctaLabel: 'Start a Software Project',
     ctaRoute: '/contact',
     services: [
@@ -265,8 +265,8 @@ export const DEPARTMENTS: Department[] = [
       'Villa Tech Academy bridges the gap between theory and real-world engineering through project-based coding tracks in Angular, TypeScript, Java, and Spring Boot — paired with executive personal branding & career services.',
     icon: 'school',
     image: 'images/villa-tech-academy.png',
-    accentClass: 'from-cyan-500 to-blue-600',
-    badgeClass: 'bg-cyan-50 text-cyan-700 border-cyan-200',
+    accentClass: 'from-navy-950 to-navy-900',
+    badgeClass: 'bg-navy-950/5 text-navy-950 border-navy-950/15',
     ctaLabel: 'Explore Villa Tech Academy',
     ctaRoute: '/academy',
     services: [

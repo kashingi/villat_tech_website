@@ -101,7 +101,7 @@ import { buildWhatsAppUrl } from '../../../core/config/site.config';
             <button
               type="button"
               (click)="requestSimilar()"
-              class="inline-flex items-center gap-2 rounded-xl bg-navy-900 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-sky-700"
+              class="inline-flex items-center gap-2 rounded-xl bg-navy-900 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-gold hover:text-navy-950"
             >
               <span>Request Similar Solution</span>
               <mat-icon class="!h-4 !w-4 !text-[17px]">arrow_forward</mat-icon>

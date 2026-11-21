@@ -21,7 +21,7 @@ export const BLOG_POSTS: BlogPost[] = [
     },
     date: 'October 28, 2026',
     readTime: '6 min read',
-    image: 'images/networking-cctv.jpg',
+    image: 'images/network-installation.png',
     tags: ['Networking', 'Wi-Fi 6', 'CCTV', 'Mombasa Business'],
     featured: true,
     sections: [

@@ -5,10 +5,10 @@
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
 
-  --color-navy-950: #060e1c;
-  --color-navy-900: #0b172a;
-  --color-navy-800: #122440;
-  --color-navy-700: #1b3459;
+  --color-navy-950: #1a3362;
+  --color-navy-900: #1f3d73;
+  --color-navy-800: #284c8a;
+  --color-navy-700: #335ea3;
 
   --color-brand-50: #f0f9ff;
   --color-brand-100: #e0f2fe;
@@ -18,6 +18,8 @@
   --color-brand-600: #0284c7;
   --color-brand-700: #0369a1;
   --color-brand-800: #075985;
+  --color-brand-gold: #e4a838;
+  --color-brand-gold-light: #efb94f;
 }
 
 @layer base {
@@ -40,7 +42,7 @@
 
   ::selection {
     background-color: #bae6fd;
-    color: #0b172a;
+    color: #1a3362;
   }
 }
 

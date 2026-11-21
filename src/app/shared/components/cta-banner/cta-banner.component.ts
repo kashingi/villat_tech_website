@@ -8,7 +8,7 @@ import { buildWhatsAppUrl } from '../../../core/config/site.config';
   standalone: true,
   imports: [RouterLink, MatIconModule],
   template: `
-    <section class="relative overflow-hidden bg-navy-900 py-16 sm:py-20">
+    <section class="relative overflow-hidden bg-navy-950 py-16 sm:py-20">
       <div class="bg-tech-grid pointer-events-none absolute inset-0 opacity-40"></div>
       <div
         class="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full bg-sky-500/20 blur-3xl"
@@ -38,7 +38,7 @@ import { buildWhatsAppUrl } from '../../../core/config/site.config';
           <div class="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
             <a
               [routerLink]="primaryRoute()"
-              class="inline-flex items-center justify-center gap-2 rounded-xl bg-sky-500 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-sky-500/25 transition-all hover:bg-sky-400 active:scale-[0.98]"
+              class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-gold px-6 py-3.5 text-sm font-semibold text-navy-950 shadow-lg shadow-brand-gold/25 transition-all hover:bg-brand-gold-light active:scale-[0.98]"
             >
               <span>{{ primaryLabel() }}</span>
               <mat-icon class="!h-4 !w-4 !text-[18px]">arrow_forward</mat-icon>
